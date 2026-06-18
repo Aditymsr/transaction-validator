@@ -241,7 +241,7 @@ function App() {
                 </div>
 
                   <a
-                    href={`https://transaction-validator-api-2hlm.onrender.com/api/download-cleaned/${validationResult.cleaned_file}`}
+                    href="https://transaction-validator-api-2hlm.onrender.com/api/download-latest-cleaned"
                     target="_blank"
                     rel="noreferrer"
                     className="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700"
@@ -250,7 +250,7 @@ function App() {
                   </a>
 
                   <a
-                    href={`https://transaction-validator-api-2hlm.onrender.com/api/download-report/${validationResult.report_file}`}
+                    href="https://transaction-validator-api-2hlm.onrender.com/api/download-latest-report"
                     target="_blank"
                     rel="noreferrer"
                     className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
